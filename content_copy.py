@@ -8,11 +8,11 @@ dest_url = "https://DESTINATION_CANVAS_URL/api/v1/"
 source_course_list = source_url + "accounts/:account_id/courses"
 source_export_content = source_url + "courses/:course_id/content_exports"
 source_show_content = source_url + "courses/:course_id/content_exports/:id"
-sourse_access_token = "ACCESS_TOKEN_FRO_SOURCE_CANVAS"
+sourse_access_token = "ACCESS_TOKEN_FROM_SOURCE_CANVAS"
 
 dest_list_active_course = dest_url + "accounts/:account_id/courses"
 dest_create_content_migration = dest_url + "courses/:course_id/content_migrations"  # sis_course_id
-dest_access_token = "ACCESS_TOKEN_FRO_DESTINATION_CANVAS"
+dest_access_token = "ACCESS_TOKEN_FROM_DESTINATION_CANVAS"
 
 filename = 'akedema_id.csv'
 encoding = 'utf-8'
